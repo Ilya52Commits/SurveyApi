@@ -1,6 +1,7 @@
 # Задача / Task
 Приложение показывает страницу с текстом вопроса, вариантами ответов и кнопкой “Далее”, для
 перехода к следующему вопросу анкеты.
+
 ---
 The application shows a page with the text of the question, answer options and a “Next” button to move to the next question.
 to go to the next question of the questionnaire.
@@ -8,6 +9,7 @@ to go to the next question of the questionnaire.
 Нужно сделать SQL-базу и REST-апи бэкенда. Апи должно быть реализовано на
 ASP.NET Core + Docker, язык C#. Данные - в базе PostgreSQL. Запуск приложения и
 базы - через docker-compose файл.
+
 ---
 We need to make a SQL database and a REST-api backend. The api should be implemented on
 ASP.NET Core + Docker, C# language. Data - in PostgreSQL database. Launching the application and
@@ -29,6 +31,7 @@ Result - данные ответов людей на вопросы анкеты
 Подумать о том, какие поля могут быть у каждой сущности и какие связи должны быть
 между ними. Какие индексы должны быть на таблицах, чтобы наша анкета работала
 быстро.
+
 ---
 1. The following entities must be present in the database:
 
@@ -57,6 +60,7 @@ Fast.
 
 Подумать, какие URI должны быть у этих двух методов, каким типом http запроса
 канонично к ним обратиться.
+
 ---
 2. Api needs to implement two methods:
 
